@@ -1,0 +1,17 @@
+.brand {
+	font-size: 17px;
+}
+
+.showcase {
+	background:url('../images/boatbackground.jpg') no-repeat;
+	background-position: center;
+	height: 800px;
+	padding: 140px 100px;
+	color: #fff;
+}
+
+.showcase h1{
+	font-size: 40px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
