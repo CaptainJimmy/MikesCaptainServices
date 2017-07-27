@@ -3,11 +3,23 @@
 }
 
 .showcase {
+	position: relative;
+	z-index: 1;
+}
+.showcase:before {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
 	background:url('../images/boatbackground.jpg') no-repeat;
 	background-position: center;
 	height: 800px;
 	padding: 140px 100px;
 	color: #fff;
+	opacity: 0.3;
 }
 
 .showcase h1{
