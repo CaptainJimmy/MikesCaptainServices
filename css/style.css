@@ -1,5 +1,10 @@
+html, body {
+	font-size: 18px;
+	line-height: 27px;
+}
+
 .brand {
-	font-size: 17px;
+	font-size: 18px;
 }
 
 .showcase {
@@ -26,4 +31,8 @@
 	font-size: 40px;
 	font-weight: 700;
 	text-transform: uppercase;
+}
+
+.cinzel {
+	font-family: 'Cinzel', serif;
 }
