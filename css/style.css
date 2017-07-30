@@ -1,6 +1,7 @@
 html, body {
 	font-size: 18px;
 	line-height: 27px;
+	background-color: #b3c8d9;
 }
 
 .brand {
@@ -38,4 +39,21 @@ html, body {
 }
 .zilla {
 	font-family: 'Zilla Slab', serif;
+	font-size: 22px;
+}
+
+.topMargin {
+	margin-top: 30px;
+}
+
+.style4{
+		font-family: 'Droid Serif', serif;
+		font-size: 20pt;
+		font-weight: 700;
+}
+
+.style5{
+		font-family: 'Droid Serif', serif;
+		font-size: 16pt;
+		font-weight: 400;
 }
