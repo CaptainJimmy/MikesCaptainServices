@@ -1,7 +1,7 @@
 html, body {
 	font-size: 18px;
 	line-height: 27px;
-	background-color: #b3c8d9;
+	background-color: #7fa3bf;
 }
 
 .brand {
@@ -20,9 +20,10 @@ html, body {
 	bottom: 0;
 	left: 0;
 	right: 0;
-	background:url('../images/boatbackground.jpg') no-repeat;
+	background-image:url('../images/boatbackground.jpg');
 	background-position: center;
-	height: 800px;
+/*	background-repeat: no-repeat;
+*/	height: 800px;
 	padding: 140px 100px;
 	color: #fff;
 	opacity: 0.3;
