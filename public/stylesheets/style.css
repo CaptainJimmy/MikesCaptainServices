@@ -28,7 +28,14 @@
   background-attachment: fixed;
   margin-top: 40px;
   height: 450px;
+  background-repeat: no-repeat;
 }
+@media (max-width: 767px){
+	.heroImage {
+		height: 700px;
+	}
+}
+
 .heroText {
   font-family: 'Droid Serif', serif;
   font-size: 30pt;
@@ -58,7 +65,7 @@
 
 .blueHeroTitle {
   color: white;
-  font-size: 90pt;
+  font-size: 75pt;
   font-weight: 800;
   font-family: 'Zilla Slab', serif;
   position: absolute;
@@ -69,3 +76,4 @@
   font-size: 60pt;
   color: white;
 }
+
