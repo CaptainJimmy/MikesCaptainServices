@@ -1,0 +1,100 @@
+extends layout
+
+block content
+  .container-fluid.heroImage
+    .container#contact
+      p.heroText.heroTitle.text-center=title
+      p.heroText.text-center (908)310-1775
+      p.heroText.text-center
+        a(href="mailto:captmikesvcs@aol.com")
+      p.heroText.text-center Specializing in East Coast Deliveries
+      p.heroText.text-center Maine To Florida &amp; U.S. Virgin Islands 
+  .container-fluid#wellCards
+    .container
+      .row
+        .col-md-4.col-xs-12
+          .well.wellCards
+            .well-heading.style4 Yacht Deliveries
+            .well-body.bg-primary.style5
+              p.style5 We deliver your boat to the destination port of your choice.&nbsp; You pay for crew, fuel, &amp; transportation costs, dockage, expenses and fees.
+        .col-md-4.col-xs-12
+          .well.wellCards
+            .well-heading.style4 Boat Hauling
+            .well-body.bg-primary.style5
+              p.style5 We haul your boat from the original destination to the destination of your choice using our hydraulic lift tailers and specialized equipment.
+        .col-md-4.col-xs-12
+          .well.wellCards
+            .well-heading.style4  Captain &amp; Crew Services
+            .well-body.bg-primary.style5
+              p.style5 We provide the Captain and Crew for your personalized cruise, party, vacation, or excursion.
+        .col-md-4.col-xs-12
+          .well.wellCards
+            .well-heading.style4 Boat Handling &amp; Maintenance
+            .well-body.bg-primary.style5
+              p.style5 We teach you how to handle, dock, navigate, and perform everyday maintenance on your vessel
+        .col-md-4.col-xs-12
+          .well.wellCards
+            .well-heading.style4 Special Events &amp; Cruises
+            .well-body.bg-primary.style5
+              p.style5 We provide the Captain &amp; Crew for your special event or party, so you can entertain your guests or enjoy the party Fireworks, Dinner Cruises, Etc). We serve you and your guests, and clean up after the event is concluded.
+        .col-md-4.col-xs-12
+          .well.wellCards
+            .well-heading.style4 Vessel Detailing &amp; Cleaning
+            .well-body.bg-primary.style5
+              p.style5 Selling your yacht or having VIP Guests, need to make it look, smell and feel spic &amp; span? We will be happy to help make it look professional and presentable.
+  .container-fluid
+    .container
+      .row
+        .col-xs-12
+          .well.wellCards
+            .well-heading.style4 Offshore / Canyon &amp; Inshore Fishing Guide Services
+            .well-body.bg-primary.style5
+              p.style5 Our experienced Captains &amp; Crew will help plan your fishing trip and stock your boat for the voyage, leaving you to the important part: Catching Fish! After you get back to shore, we clean your catch and your boat, allowing you to relax.
+  .container-fluid.blueHero#charter
+    img.img-responsive.blueHero(src="/images/blueboathero.png")
+    container.blueHeroTitle
+      p Vessels For Charter
+      a(href="#contact").blueHeroText
+        p.blueHeroText Contact us for pricing and more information.
+  .container-fluid
+    .row
+      .container
+        .jumbotron
+          h2 M/Y Vivere
+          p 116 ft / 35M Azimut Motor Yacht
+          p Vivere's spacious layout sleeps up to 10 guests in 5 staterooms, including a master suite and 2 double cabins, with a crew capacity of 6.
+          p Vivere's location is Ft Lauderdale, FL, November through April, New York Harbor May through October.
+          p Prices from $52,000 per week plus expenses.
+          a(href="#contact") 
+            p Call for current pricing, location, and availability.
+        .col-xs-12
+          div#vivCarousel.carousel.slide(data-ride="carousel")
+            ol.carousel-indicators
+              li.active(data-target="#vivCarousel" data-slide-to="0")
+              li(data-target="#vivCarousel" data-slide-to="1")
+              li(data-target="#vivCarousel" data-slide-to="2")
+              li(data-target="#vivCarousel" data-slide-to="3")
+              li(data-target="#vivCarousel" data-slide-to="4")
+              li(data-target="#vivCarousel" data-slide-to="5")
+              li(data-target="#vivCarousel" data-slide-to="6")
+            .carousel-inner
+              .item.active
+                img(src="/images/IMG_0414.JPG" alt="Vivere")
+              .item
+                img(src="/images/IMG_0415.JPG" alt="Vivere" style="transform:rotate(90deg);")
+              .item
+                img(src="/images/IMG_0416.JPG" alt="Vivere")
+              .item
+                img(src="/images/IMG_0417.JPG" alt="Vivere")
+              .item
+                img(src="/images/IMG_0418.JPG" alt="Vivere")
+              .item
+                img(src="/images/IMG_0419.JPG" alt="Vivere")
+            a.left.carousel-control(href="#vivCarousel" data-slide="prev")
+              span.glyphicon.glyphicon-chevron-left
+              span.sr-only
+            a.right.carousel-control(href="#vivCarousel" data-slide="next")
+              span.glyphicon.glyphicon-chevron-right
+              span.sr-only
+
+            

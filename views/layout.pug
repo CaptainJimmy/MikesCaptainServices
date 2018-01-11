@@ -1,0 +1,30 @@
+doctype html
+html
+  head
+    title= title
+    link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/cerulean/bootstrap.min.css")
+    link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/font-mfizz/2.4.1/font-mfizz.min.css")
+    link(href="https://fonts.googleapis.com/css?family=Cinzel|Zilla+Slab|Droid+Serif:400,700" rel="stylesheet")
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    script(type="text/javascript", src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js")
+    script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js")
+    script(src="https://use.fontawesome.com/cd53706be4.js")
+    .navbar.navbar-expand-lg.navbar-default.navbar-fixed-top
+      .container
+        span.navbar-brand Capt. Mike Minnues
+        button.navbar-toggle(data-toggle="collapse", data-target=".navHeaderCollapse")
+          span.icon-bar
+          span.icon-bar
+          span.icon-bar
+        .collapse.navbar-collapse
+          ul.nav.navbar-nav.navbar-right.navHeaderCollapse
+            li
+              a(href="#") Home
+            li
+              a(href="#contact") Contact
+            li
+              a(href="#charter") Vessels for Charter
+            li
+              a(href="#partners") Partners
+    block content

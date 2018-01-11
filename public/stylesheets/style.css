@@ -1,0 +1,71 @@
+/*body {
+  background-image:url("/images/boatbackground.jpg");
+  background-size:cover;
+}
+*/
+
+.style4{
+  font-family: 'Droid Serif', serif;
+  font-size: 20pt;
+  font-weight: 700;
+  border-radius: 10px;
+}
+
+.style5{
+  font-family: 'Droid Serif', serif;
+  font-size: 16pt;
+  font-weight: 400;
+  border-radius: 10px;
+}
+.cards {
+  width: 18rem;
+  margin: 10px;
+  padding: 10px;
+}
+.heroImage {
+  background-image:url("/images/hero.png");
+  background-size:contain;
+  background-attachment: fixed;
+  margin-top: 40px;
+  height: 450px;
+}
+.heroText {
+  font-family: 'Droid Serif', serif;
+  font-size: 30pt;
+  font-weight: 800;
+  color: white;
+}
+.heroTitle {
+  font-size: 50pt;
+}
+.wellCards {
+  background-color: dodgerblue;
+  border: 5px;
+  border-radius: 10px;
+  border-color: black;
+  color: white;
+}
+#wellCards {
+  margin-top: 10px;
+}
+.blueHero {
+  width: 100%;
+  height:auto;
+  padding: 10px 0px 10px 0px;
+  margin: 10px 0px 10px 0px;
+  position: relative;
+}
+
+.blueHeroTitle {
+  color: white;
+  font-size: 90pt;
+  font-weight: 800;
+  font-family: 'Zilla Slab', serif;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+}
+.blueHeroText, a span {
+  font-size: 60pt;
+  color: white;
+}
