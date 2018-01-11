@@ -2,13 +2,15 @@ extends layout
 
 block content
   .container-fluid.heroImage
+    img.img-responsive(src="/images/hero.png")
     .container#contact
-      p.heroText.heroTitle.text-center=title
-      p.heroText.text-center (908)310-1775
-      p.heroText.text-center
+      p.heroText.text-right.heroTitle=title
+      p.heroText.text-right (908)310-1775
+      p.heroText
         a(href="mailto:captmikesvcs@aol.com")
-      p.heroText.text-center Specializing in East Coast Deliveries
-      p.heroText.text-center Maine To Florida &amp; U.S. Virgin Islands 
+          p.heroText.text-right Email
+      p.heroText.text-right Specializing in East Coast Deliveries
+      p.heroText.text-right Maine To Florida &amp; U.S. Virgin Islands 
   .container-fluid#wellCards
     .container
       .row
